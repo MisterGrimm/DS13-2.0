@@ -267,5 +267,12 @@
 				soundin= pick('sound/effects/paint_1.ogg','sound/effects/paint_2.ogg','sound/effects/paint_3.ogg')
 			if(SFX_BLOCK_BIG_METAL)
 				soundin = pick('sound/weapons/block/metal_block_01.ogg','sound/weapons/block/metal_block_02.ogg','sound/weapons/block/metal_block_03.ogg','sound/weapons/block/metal_block_04.ogg','sound/weapons/block/metal_block_05.ogg','sound/weapons/block/metal_block_06.ogg')
+			//DS13 sound addons for basic_necro types
+			if(SFX_NECRO_HEAD_ATTACK)
+				soundin = pick('deadspace/sound/effects/creatures/necromorph/divider/component/head_attack_1.ogg','deadspace/sound/effects/creatures/necromorph/divider/component/head_attack_2.ogg')
+			if(SFX_NECRO_LEG_ATTACK)
+				soundin = pick('deadspace/sound/effects/creatures/necromorph/divider/component/leg_attack_1.ogg','deadspace/sound/effects/creatures/necromorph/divider/component/leg_attack_2.ogg','deadspace/sound/effects/creatures/necromorph/divider/component/leg_attack_3.ogg','deadspace/sound/effects/creatures/necromorph/divider/component/leg_attack_4.ogg')
+			if(SFX_NECRO_ARM_ATTACK)
+				soundin = pick('deadspace/sound/effects/creatures/necromorph/divider/component/arm_attack_1.ogg','deadspace/sound/effects/creatures/necromorph/divider/component/arm_attack_2.ogg','deadspace/sound/effects/creatures/necromorph/divider/component/arm_attack_3.ogg','deadspace/sound/effects/creatures/necromorph/divider/component/arm_attack_4.ogg','deadspace/sound/effects/creatures/necromorph/divider/component/arm_attack_5.ogg')
 
 	return soundin

@@ -173,6 +173,10 @@ GLOBAL_LIST_INIT(announcer_keys, list(
 #define SFX_BREAK_BONE "break_bone"
 #define SFX_PAINT "paint"
 #define SFX_BLOCK_BIG_METAL "big_metal_block"
+//DS13 addons for basic_necro sounds
+#define SFX_NECRO_HEAD_ATTACK "head_attack"
+#define SFX_NECRO_LEG_ATTACK "leg_attack"
+#define SFX_NECRO_ARM_ATTACK "arm_attack"
 
 
 #define LOOPING_SOUND_DIRECT 1
