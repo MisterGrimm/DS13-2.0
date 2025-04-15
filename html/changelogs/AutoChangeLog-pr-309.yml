@@ -1,0 +1,10 @@
+author: mogeoko
+delete-after: true
+changes:
+  - code_imp: Changed "minigrowth" icon_state to "minigrowth1"
+  - code_imp: Added a safety check to prevent sending marker eyes to nowhere in the
+      /DblClickOn proc
+  - bugfix: Hopper's AI attack speed has been given it's cooldown
+  - qol: Biohazard lockdown sound is now played directly to the players
+  - qol: Root and Branch now have different icons
+  - qol: Changed all building skills to a single list skill
